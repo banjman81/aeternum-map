@@ -1,0 +1,84 @@
+.svg-map{
+  fill: rgba(255, 255, 255, 0.2);
+}
+.svg-map:hover{
+  fill: rgba(88, 10, 104, 0.2);
+  cursor: pointer;
+}
+.btn{
+  height: fit-content;
+  font-size: 25px;
+  font-weight: bold;
+}
+.key-in{
+  height: 25px;
+  font-size: 20px;
+}
+.owned{
+  fill: rgba(95, 3, 107, 0.7);
+}
+.faction-owned{
+  fill: url('#factionOwned');
+
+}
+.enemy-owned{
+  fill: url('#enemyOwned');
+  
+}
+body{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #809791;
+}
+.aeternum{
+  background-image: url('aeternum-world.JPG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 938px;
+  height: 886px;
+  padding: 0;
+  align-self: center;
+  margin-top: 25px;
+}
+.aeternum svg{
+  /* width: 90%; */
+  height: 120%;
+  position: relative;
+  top: -17px;
+  left: -55px;
+  /* margin-top: 10%; */
+  /* margin-left: 20%; */
+}
+.legend{
+  margin: auto;
+}
+.legend ul{
+  display: flex;
+  list-style-type: none;
+}
+.legend ul li{
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+.legend ul li p{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin: 5px;
+
+}
+.dream{
+  background: radial-gradient(purple, black);
+}
+.enemy{
+  background: radial-gradient(rgb(255, 0, 0), black);
+}
+.faction{
+  background: radial-gradient(rgb(189, 145, 189), rgb(85, 1, 85));
+}
+.nobody{
+  background: rgb(229, 223, 209);
+}
