@@ -31,10 +31,10 @@ body{
   flex-direction: column;
   justify-content: center;
   background-color: #809791;
-  color: rgba(204, 11, 221, 0.507)
+  color: rgba(172, 6, 172, 0.658);
 }
 .aeternum{
-  background-image: url('aeternum-world.JPG');
+  background-image: url('aeternum-world.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   width: 938px;
